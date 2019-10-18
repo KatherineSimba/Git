@@ -1,3 +1,7 @@
+# Git
+
+Git fue creado pensando en la eficiencia y la confiabilidad del mantenimiento de versiones de aplicaciones cuando éstas tienen un gran número de archivos de código fuente, es decir Git nos proporciona las herramientas para desarrollar un trabajo en equipo de manera inteligente y rápida y por trabajo nos referimos a algún software o página que implique código el cual necesitemos hacerlo con un grupo de personas.
+
 # Aprende a Usar Git
 Vamos a conocer los comandos principales de Git por medio de una práctica en la que trataremos de ilustrar cuál es el uso de la 
 herramienta para gestionar las versiones de un proyecto. El objetivo es ver cómo se crea un repositorio, cómo se actualizan los archivos 
@@ -51,6 +55,8 @@ Para trabajar con Github tenemos algunas características importantes como las c
 En el vídeo se muestra cómo se crea el repositorio en Github y cómo se clona en local por medio del comando "clone". Una vez clonado se muestra cómo se actualizan los archivos en local, se añaden al área intermedia con "add" y se hace el "commit" al repositorio en local. Por último se envían los cambios al servidor remoto con "push".
 
 Todo esto no es un paso inmediato, pero en el vídeo se explica fantásticamente.
+
+Cuando un usuario hace un pull request desde su fork al repositorio original, github crea en el repositorio orignal una referencia a los commits cuya incorporación se ha solicitado. El repositorio original, el que recibe el pull request, guarda estas referencias en refs/pull/*/head. Recordad que las referencias en git no son más que ficheros que contienen hashes a objetos de git. Estos ficheros están en los servidores de github.
 
 ## El curso de Git
 Todo el material que se ve en el vídeo no es más que la punta del iceberg, es decir, una pequeña muestra de entre todas las enormes posibilidades de Git. Esta clase de una hora seguro que te servirá para dar los primeros pasos con Git, pero hay mucho más detrás de esta herramienta. Hay todavía muchas cosas que ver y conceptos fundamentales como hacer "fork", "pull", "merge", "checkout", "fetch", "branch"...
